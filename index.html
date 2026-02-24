@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WBR Dashboard — Weekly Business Review</title>
+    <meta name="description"
+        content="Interactive dashboard for tracking Weekly Business Review metrics, task completion rates, and team KPIs.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <!-- Loading state shown until data loads -->
+    <div id="loading" class="loading">
+        <div class="loading__spinner"></div>
+        <div class="loading__text">Initializing dashboard…</div>
+    </div>
+
+    <!-- Main dashboard (hidden until loaded) -->
+    <div id="app" class="dashboard" style="display:none;">
+
+        <!-- ═══ HEADER ═══ -->
+        <header class="header">
+            <div class="header__brand">
+                <div class="header__logo">W</div>
+                <div>
+                    <div class="header__title">WBR Dashboard</div>
+                    <div class="header__subtitle">Weekly Business Review — Maintenance</div>
+                </div>
+            </div>
+            <div class="header__controls">
+                <div class="header__pulse"></div>
+                <select id="weekSelector" class="header__week-select" aria-label="Select week"></select>
+                <span id="lastUpdated" class="header__updated"></span>
+            </div>
+        </header>
+
+        <!-- ═══ KPI CARDS ═══ -->
+        <section class="kpi-grid" id="kpiGrid">
+            <div class="kpi-card" data-scroll-to="tasksChart" style="--card-accent: var(--grad-cool)">
+                <div class="kpi-card__icon">📋</div>
+                <div class="kpi-card__label">Total Tasks</div>
+                <div class="kpi-card__value kpi-card__value--cyan" id="kpiTotalTasks">—</div>
+                <div class="kpi-card__trend" id="kpiTotalTasksTrend"></div>
+                <canvas class="kpi-card__sparkline" id="sparkTotalTasks"></canvas>
+            </div>
+            <div class="kpi-card" data-scroll-to="completionChart" style="--card-accent: var(--grad-success)">
+                <div class="kpi-card__icon">🎯</div>
+                <div class="kpi-card__label">Completion Rate</div>
+                <div class="kpi-card__value kpi-card__value--green" id="kpiCompletion">—</div>
+                <div class="kpi-card__trend" id="kpiCompletionTrend"></div>
+                <canvas class="kpi-card__sparkline" id="sparkCompletion"></canvas>
+            </div>
+            <div class="kpi-card" data-scroll-to="kpisChart" style="--card-accent: var(--grad-danger)">
+                <div class="kpi-card__icon">⚠️</div>
+                <div class="kpi-card__label">Critical Over SLA</div>
+                <div class="kpi-card__value kpi-card__value--red" id="kpiCritical">—</div>
+                <div class="kpi-card__trend" id="kpiCriticalTrend"></div>
+                <canvas class="kpi-card__sparkline" id="sparkCritical"></canvas>
+            </div>
+            <div class="kpi-card" data-scroll-to="planningChart" style="--card-accent: var(--grad-warm)">
+                <div class="kpi-card__icon">⏱️</div>
+                <div class="kpi-card__label">Debt Hours</div>
+                <div class="kpi-card__value kpi-card__value--amber" id="kpiDebt">—</div>
+                <div class="kpi-card__trend" id="kpiDebtTrend"></div>
+                <canvas class="kpi-card__sparkline" id="sparkDebt"></canvas>
+            </div>
+        </section>
+
+        <!-- ═══ CHARTS ═══ -->
+        <section class="charts-grid">
+            <!-- Tasks Created -->
+            <div class="chart-panel" id="tasksChart">
+                <div class="chart-panel__header">
+                    <div class="chart-panel__title">📝 Tasks Created</div>
+                    <div class="chart-panel__badge">STACKED</div>
+                </div>
+                <div class="chart-panel__canvas-wrap">
+                    <canvas id="canvasTasks"></canvas>
+                </div>
+            </div>
+
+            <!-- Due vs Done -->
+            <div class="chart-panel" id="dueDoneChart">
+                <div class="chart-panel__header">
+                    <div class="chart-panel__title">✅ Due vs Done</div>
+                    <div class="chart-panel__badge">GROUPED</div>
+                </div>
+                <div class="chart-panel__canvas-wrap">
+                    <canvas id="canvasDueDone"></canvas>
+                </div>
+            </div>
+
+            <!-- Completion Rate -->
+            <div class="chart-panel" id="completionChart">
+                <div class="chart-panel__header">
+                    <div class="chart-panel__title">🎯 Completion Rate</div>
+                    <div class="chart-panel__badge">TREND</div>
+                </div>
+                <div class="chart-panel__canvas-wrap">
+                    <canvas id="canvasCompletion"></canvas>
+                </div>
+            </div>
+
+            <!-- Quality KPIs -->
+            <div class="chart-panel" id="kpisChart">
+                <div class="chart-panel__header">
+                    <div class="chart-panel__title">📊 Quality KPIs</div>
+                    <div class="chart-panel__badge">MULTI-LINE</div>
+                </div>
+                <div class="chart-panel__canvas-wrap">
+                    <canvas id="canvasKPIs"></canvas>
+                </div>
+            </div>
+
+            <!-- Planning Hours -->
+            <div class="chart-panel chart-panel--wide" id="planningChart">
+                <div class="chart-panel__header">
+                    <div class="chart-panel__title">⏱️ Planning &amp; Capacity</div>
+                    <div class="chart-panel__badge">HOURS</div>
+                </div>
+                <div class="chart-panel__canvas-wrap">
+                    <canvas id="canvasPlanning"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- ═══ COMPARISON ═══ -->
+        <section class="comparison" id="comparisonSection">
+            <div class="comparison__header">
+                <div class="comparison__title">⚡ Week Comparison</div>
+                <div class="comparison__selectors">
+                    <select id="compareA" class="comparison__select" aria-label="Week A"></select>
+                    <span class="comparison__vs">VS</span>
+                    <select id="compareB" class="comparison__select" aria-label="Week B"></select>
+                </div>
+            </div>
+            <div class="comparison__grid" id="comparisonGrid"></div>
+        </section>
+
+        <!-- ═══ FOOTER ═══ -->
+        <footer class="footer">
+            WBR Dashboard · Built with Chart.js · Data from Google Sheets
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

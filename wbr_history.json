@@ -2,7 +2,7 @@
   "reviews": [
     {
       "week": "W4",
-      "captured_at": "2026-03-02T19:25:20.009705",
+      "captured_at": "2026-03-09T19:28:09.278443",
       "total_tasks": 58,
       "auto_tasks": 23,
       "data_tasks": 9,
@@ -23,7 +23,7 @@
     },
     {
       "week": "W5",
-      "captured_at": "2026-03-02T19:25:20.009724",
+      "captured_at": "2026-03-09T19:28:09.278469",
       "total_tasks": 40,
       "auto_tasks": 8,
       "data_tasks": 9,
@@ -44,8 +44,8 @@
     },
     {
       "week": "W6",
-      "captured_at": "2026-03-02T19:25:20.009733",
-      "total_tasks": 55,
+      "captured_at": "2026-03-09T19:28:09.278480",
+      "total_tasks": 58,
       "auto_tasks": 12,
       "data_tasks": 5,
       "created": 55,
@@ -65,7 +65,7 @@
     },
     {
       "week": "W7",
-      "captured_at": "2026-03-02T19:25:20.009739",
+      "captured_at": "2026-03-09T19:28:09.278489",
       "total_tasks": 64,
       "auto_tasks": 33,
       "data_tasks": 9,
@@ -86,7 +86,7 @@
     },
     {
       "week": "W8",
-      "captured_at": "2026-03-02T19:25:20.009745",
+      "captured_at": "2026-03-09T19:28:09.278496",
       "total_tasks": 214,
       "auto_tasks": 162,
       "data_tasks": 14,
@@ -107,28 +107,28 @@
     },
     {
       "week": "W9",
-      "captured_at": "2026-03-02T19:25:20.009750",
-      "total_tasks": 84,
-      "auto_tasks": 30,
-      "data_tasks": 24,
+      "captured_at": "2026-03-09T19:28:09.278503",
+      "total_tasks": 58,
+      "auto_tasks": 19,
+      "data_tasks": 18,
       "created": 58,
-      "auto_done": 45,
-      "data_done": 0,
-      "total_due": 58,
+      "auto_done": 19,
+      "data_done": 18,
+      "total_due": 56,
       "total_done": 58,
-      "critical_over_sla": 0,
-      "returned": 0,
-      "repeating": "-",
-      "new_launches": "-",
-      "created_est_hrs": 26.0,
-      "new_debt_hrs": 0.0,
-      "planned_hrs": 30.0,
-      "debt_hrs": 7.5,
-      "completion_rate": 100.0
+      "critical_over_sla": 2,
+      "returned": 5,
+      "repeating": "3",
+      "new_launches": "0",
+      "created_est_hrs": 42.0,
+      "new_debt_hrs": 10.0,
+      "planned_hrs": 0.0,
+      "debt_hrs": 0.0,
+      "completion_rate": 103.6
     },
     {
       "week": "W10",
-      "captured_at": "2026-03-02T19:25:20.009759",
+      "captured_at": "2026-03-09T19:28:09.278509",
       "total_tasks": 82,
       "auto_tasks": 42,
       "data_tasks": 19,
@@ -149,7 +149,7 @@
     },
     {
       "week": "W11",
-      "captured_at": "2026-03-02T19:25:20.009763",
+      "captured_at": "2026-03-09T19:28:09.278516",
       "total_tasks": 86,
       "auto_tasks": 53,
       "data_tasks": 24,
@@ -170,7 +170,7 @@
     },
     {
       "week": "W12",
-      "captured_at": "2026-03-02T19:25:20.009767",
+      "captured_at": "2026-03-09T19:28:09.278521",
       "total_tasks": 109,
       "auto_tasks": 59,
       "data_tasks": 28,
@@ -191,7 +191,7 @@
     },
     {
       "week": "W13",
-      "captured_at": "2026-03-02T19:25:20.009773",
+      "captured_at": "2026-03-09T19:28:09.278529",
       "total_tasks": 63,
       "auto_tasks": 21,
       "data_tasks": 35,
@@ -212,7 +212,7 @@
     },
     {
       "week": "W14*",
-      "captured_at": "2026-03-02T19:25:20.009778",
+      "captured_at": "2026-03-09T19:28:09.278537",
       "total_tasks": 38,
       "auto_tasks": 17,
       "data_tasks": 7,
@@ -233,7 +233,7 @@
     },
     {
       "week": "W15",
-      "captured_at": "2026-03-02T19:25:20.009783",
+      "captured_at": "2026-03-09T19:28:09.278543",
       "total_tasks": 59,
       "auto_tasks": 35,
       "data_tasks": 6,
@@ -254,7 +254,7 @@
     },
     {
       "week": "W16",
-      "captured_at": "2026-03-02T19:25:20.009788",
+      "captured_at": "2026-03-09T19:28:09.278550",
       "total_tasks": 42,
       "auto_tasks": 23,
       "data_tasks": 9,
@@ -275,7 +275,7 @@
     },
     {
       "week": "W17",
-      "captured_at": "2026-03-02T19:25:20.009793",
+      "captured_at": "2026-03-09T19:28:09.278557",
       "total_tasks": 45,
       "auto_tasks": 21,
       "data_tasks": 6,
@@ -296,7 +296,7 @@
     },
     {
       "week": "W18",
-      "captured_at": "2026-03-02T19:25:20.009798",
+      "captured_at": "2026-03-09T19:28:09.278564",
       "total_tasks": 28,
       "auto_tasks": 14,
       "data_tasks": 6,
@@ -317,7 +317,7 @@
     },
     {
       "week": "W19",
-      "captured_at": "2026-03-02T19:25:20.009803",
+      "captured_at": "2026-03-09T19:28:09.278570",
       "total_tasks": 45,
       "auto_tasks": 9,
       "data_tasks": 4,
@@ -338,7 +338,7 @@
     },
     {
       "week": "W20",
-      "captured_at": "2026-03-02T19:25:20.009810",
+      "captured_at": "2026-03-09T19:28:09.278576",
       "total_tasks": 41,
       "auto_tasks": 10,
       "data_tasks": 9,
@@ -359,7 +359,7 @@
     },
     {
       "week": "W21",
-      "captured_at": "2026-03-02T19:25:20.009815",
+      "captured_at": "2026-03-09T19:28:09.278582",
       "total_tasks": 53,
       "auto_tasks": 21,
       "data_tasks": 3,
@@ -380,7 +380,7 @@
     },
     {
       "week": "W22",
-      "captured_at": "2026-03-02T19:25:20.009820",
+      "captured_at": "2026-03-09T19:28:09.278588",
       "total_tasks": 33,
       "auto_tasks": 13,
       "data_tasks": 2,
@@ -401,7 +401,7 @@
     },
     {
       "week": "W23",
-      "captured_at": "2026-03-02T19:25:20.009824",
+      "captured_at": "2026-03-09T19:28:09.278595",
       "total_tasks": 60,
       "auto_tasks": 29,
       "data_tasks": 4,
@@ -422,7 +422,7 @@
     },
     {
       "week": "W24",
-      "captured_at": "2026-03-02T19:25:20.009829",
+      "captured_at": "2026-03-09T19:28:09.278603",
       "total_tasks": 82,
       "auto_tasks": 51,
       "data_tasks": 7,
@@ -443,7 +443,7 @@
     },
     {
       "week": "W25",
-      "captured_at": "2026-03-02T19:25:20.009833",
+      "captured_at": "2026-03-09T19:28:09.278608",
       "total_tasks": 88,
       "auto_tasks": 71,
       "data_tasks": 3,
@@ -464,7 +464,7 @@
     },
     {
       "week": "W26",
-      "captured_at": "2026-03-02T19:25:20.009838",
+      "captured_at": "2026-03-09T19:28:09.278614",
       "total_tasks": 58,
       "auto_tasks": 31,
       "data_tasks": 9,
@@ -485,7 +485,7 @@
     },
     {
       "week": "W27",
-      "captured_at": "2026-03-02T19:25:20.009842",
+      "captured_at": "2026-03-09T19:28:09.278623",
       "total_tasks": 57,
       "auto_tasks": 36,
       "data_tasks": 3,
@@ -506,7 +506,7 @@
     },
     {
       "week": "W28",
-      "captured_at": "2026-03-02T19:25:20.009847",
+      "captured_at": "2026-03-09T19:28:09.278629",
       "total_tasks": 70,
       "auto_tasks": 49,
       "data_tasks": 3,
@@ -527,7 +527,7 @@
     },
     {
       "week": "W29",
-      "captured_at": "2026-03-02T19:25:20.009851",
+      "captured_at": "2026-03-09T19:28:09.278635",
       "total_tasks": 45,
       "auto_tasks": 27,
       "data_tasks": 5,
@@ -548,7 +548,7 @@
     },
     {
       "week": "W30",
-      "captured_at": "2026-03-02T19:25:20.009858",
+      "captured_at": "2026-03-09T19:28:09.278641",
       "total_tasks": 49,
       "auto_tasks": 26,
       "data_tasks": 4,
@@ -569,7 +569,7 @@
     },
     {
       "week": "W31",
-      "captured_at": "2026-03-02T19:25:20.009863",
+      "captured_at": "2026-03-09T19:28:09.278647",
       "total_tasks": 36,
       "auto_tasks": 14,
       "data_tasks": 6,
@@ -590,7 +590,7 @@
     },
     {
       "week": "W32",
-      "captured_at": "2026-03-02T19:25:20.009868",
+      "captured_at": "2026-03-09T19:28:09.278669",
       "total_tasks": 33,
       "auto_tasks": 5,
       "data_tasks": 8,
@@ -611,7 +611,7 @@
     },
     {
       "week": "W33",
-      "captured_at": "2026-03-02T19:25:20.009873",
+      "captured_at": "2026-03-09T19:28:09.278675",
       "total_tasks": 46,
       "auto_tasks": 12,
       "data_tasks": 15,
@@ -632,7 +632,7 @@
     },
     {
       "week": "W34",
-      "captured_at": "2026-03-02T19:25:20.009878",
+      "captured_at": "2026-03-09T19:28:09.278684",
       "total_tasks": 30,
       "auto_tasks": 0,
       "data_tasks": 8,
@@ -653,7 +653,7 @@
     },
     {
       "week": "W35",
-      "captured_at": "2026-03-02T19:25:20.009883",
+      "captured_at": "2026-03-09T19:28:09.278690",
       "total_tasks": 103,
       "auto_tasks": 69,
       "data_tasks": 6,
@@ -674,7 +674,7 @@
     },
     {
       "week": "W36",
-      "captured_at": "2026-03-02T19:25:20.009887",
+      "captured_at": "2026-03-09T19:28:09.278696",
       "total_tasks": 104,
       "auto_tasks": 37,
       "data_tasks": 14,
@@ -695,7 +695,7 @@
     },
     {
       "week": "W37",
-      "captured_at": "2026-03-02T19:25:20.009892",
+      "captured_at": "2026-03-09T19:28:09.278702",
       "total_tasks": 62,
       "auto_tasks": 19,
       "data_tasks": 12,
@@ -716,7 +716,7 @@
     },
     {
       "week": "W38",
-      "captured_at": "2026-03-02T19:25:20.009897",
+      "captured_at": "2026-03-09T19:28:09.278709",
       "total_tasks": 64,
       "auto_tasks": 26,
       "data_tasks": 8,
@@ -737,7 +737,7 @@
     },
     {
       "week": "W39",
-      "captured_at": "2026-03-02T19:25:20.009902",
+      "captured_at": "2026-03-09T19:28:09.278715",
       "total_tasks": 52,
       "auto_tasks": 15,
       "data_tasks": 10,
@@ -758,7 +758,7 @@
     },
     {
       "week": "W40",
-      "captured_at": "2026-03-02T19:25:20.009908",
+      "captured_at": "2026-03-09T19:28:09.278721",
       "total_tasks": 57,
       "auto_tasks": 28,
       "data_tasks": 16,
@@ -779,7 +779,7 @@
     },
     {
       "week": "W41",
-      "captured_at": "2026-03-02T19:25:20.009913",
+      "captured_at": "2026-03-09T19:28:09.278728",
       "total_tasks": 44,
       "auto_tasks": 17,
       "data_tasks": 6,
@@ -800,7 +800,7 @@
     },
     {
       "week": "W42",
-      "captured_at": "2026-03-02T19:25:20.009918",
+      "captured_at": "2026-03-09T19:28:09.278734",
       "total_tasks": 24,
       "auto_tasks": 4,
       "data_tasks": 9,
@@ -821,7 +821,7 @@
     },
     {
       "week": "W43",
-      "captured_at": "2026-03-02T19:25:20.009922",
+      "captured_at": "2026-03-09T19:28:09.278741",
       "total_tasks": 54,
       "auto_tasks": 16,
       "data_tasks": 16,
@@ -842,7 +842,7 @@
     },
     {
       "week": "W44",
-      "captured_at": "2026-03-02T19:25:20.009927",
+      "captured_at": "2026-03-09T19:28:09.278750",
       "total_tasks": 36,
       "auto_tasks": 15,
       "data_tasks": 6,
@@ -863,7 +863,7 @@
     },
     {
       "week": "W45",
-      "captured_at": "2026-03-02T19:25:20.009932",
+      "captured_at": "2026-03-09T19:28:09.278757",
       "total_tasks": 60,
       "auto_tasks": 33,
       "data_tasks": 6,
@@ -884,7 +884,7 @@
     },
     {
       "week": "W46",
-      "captured_at": "2026-03-02T19:25:20.009937",
+      "captured_at": "2026-03-09T19:28:09.278764",
       "total_tasks": 92,
       "auto_tasks": 55,
       "data_tasks": 10,
@@ -905,7 +905,7 @@
     },
     {
       "week": "W47",
-      "captured_at": "2026-03-02T19:25:20.009941",
+      "captured_at": "2026-03-09T19:28:09.278771",
       "total_tasks": 60,
       "auto_tasks": 16,
       "data_tasks": 15,
@@ -926,7 +926,7 @@
     },
     {
       "week": "W48",
-      "captured_at": "2026-03-02T19:25:20.009946",
+      "captured_at": "2026-03-09T19:28:09.278777",
       "total_tasks": 50,
       "auto_tasks": 15,
       "data_tasks": 13,
@@ -947,7 +947,7 @@
     },
     {
       "week": "W49",
-      "captured_at": "2026-03-02T19:25:20.009951",
+      "captured_at": "2026-03-09T19:28:09.278784",
       "total_tasks": 88,
       "auto_tasks": 30,
       "data_tasks": 29,
@@ -968,7 +968,7 @@
     },
     {
       "week": "W50",
-      "captured_at": "2026-03-02T19:25:20.009957",
+      "captured_at": "2026-03-09T19:28:09.278791",
       "total_tasks": 54,
       "auto_tasks": 5,
       "data_tasks": 16,
@@ -989,7 +989,7 @@
     },
     {
       "week": "W51",
-      "captured_at": "2026-03-02T19:25:20.009962",
+      "captured_at": "2026-03-09T19:28:09.278798",
       "total_tasks": 48,
       "auto_tasks": 7,
       "data_tasks": 16,
@@ -1010,7 +1010,7 @@
     },
     {
       "week": "W52",
-      "captured_at": "2026-03-02T19:25:20.009969",
+      "captured_at": "2026-03-09T19:28:09.278805",
       "total_tasks": 16,
       "auto_tasks": 8,
       "data_tasks": 2,
@@ -1031,7 +1031,7 @@
     },
     {
       "week": "W3",
-      "captured_at": "2026-03-02T19:25:20.009975",
+      "captured_at": "2026-03-09T19:28:09.278812",
       "total_tasks": 80,
       "auto_tasks": 23,
       "data_tasks": 31,
@@ -1052,7 +1052,7 @@
     },
     {
       "week": "W4",
-      "captured_at": "2026-03-02T19:25:20.009980",
+      "captured_at": "2026-03-09T19:28:09.278820",
       "total_tasks": 58,
       "auto_tasks": 23,
       "data_tasks": 9,
@@ -1073,7 +1073,7 @@
     },
     {
       "week": "W5",
-      "captured_at": "2026-03-02T19:25:20.009984",
+      "captured_at": "2026-03-09T19:28:09.278827",
       "total_tasks": 40,
       "auto_tasks": 8,
       "data_tasks": 9,
@@ -1094,8 +1094,8 @@
     },
     {
       "week": "W6",
-      "captured_at": "2026-03-02T19:25:20.009989",
-      "total_tasks": 55,
+      "captured_at": "2026-03-09T19:28:09.278834",
+      "total_tasks": 58,
       "auto_tasks": 12,
       "data_tasks": 5,
       "created": 55,
@@ -1115,7 +1115,7 @@
     },
     {
       "week": "W7",
-      "captured_at": "2026-03-02T19:25:20.009994",
+      "captured_at": "2026-03-09T19:28:09.278841",
       "total_tasks": 64,
       "auto_tasks": 33,
       "data_tasks": 9,
@@ -1136,7 +1136,7 @@
     },
     {
       "week": "W8",
-      "captured_at": "2026-03-02T19:25:20.009998",
+      "captured_at": "2026-03-09T19:28:09.278847",
       "total_tasks": 214,
       "auto_tasks": 162,
       "data_tasks": 14,
@@ -1154,7 +1154,28 @@
       "planned_hrs": 0.0,
       "debt_hrs": 0.0,
       "completion_rate": 114.1
+    },
+    {
+      "week": "W9",
+      "captured_at": "2026-03-09T19:28:09.278854",
+      "total_tasks": 58,
+      "auto_tasks": 19,
+      "data_tasks": 18,
+      "created": 58,
+      "auto_done": 19,
+      "data_done": 18,
+      "total_due": 56,
+      "total_done": 58,
+      "critical_over_sla": 2,
+      "returned": 5,
+      "repeating": "3",
+      "new_launches": "0",
+      "created_est_hrs": 42.0,
+      "new_debt_hrs": 10.0,
+      "planned_hrs": 0.0,
+      "debt_hrs": 0.0,
+      "completion_rate": 103.6
     }
   ],
-  "last_updated": "2026-03-02T19:25:20.010002"
+  "last_updated": "2026-03-09T19:28:09.278859"
 }
